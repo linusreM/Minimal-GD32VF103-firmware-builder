@@ -1,0 +1,14 @@
+To make blinky you need:
+
+riscv32-unknown-elf compiler in path
+make
+dfu-tools (for upload)
+
+init.S        ->  9 rows assembly
+main.c        -> 14 rows C code
+linkscript.ld -> 36 rows linker script
+makefile      -> 49 rows makefile
+
+total: 108 lines
+
+(All this could be made way less by sacrificing readability)
